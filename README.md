@@ -3,8 +3,10 @@
 
 This project implements a full deep learning pipeline to classify handwritten digits from the MNIST dataset using a Convolutional Neural Network (CNN) built with PyTorch.
 It includes preprocessing, model training, evaluation, and Kaggle submission generation.
+⸻
 
 🧠 Model Architecture
+
 	•	Conv2D(1 → 32) + ReLU
 	•	MaxPool(2×2)
 	•	Conv2D(32 → 64) + ReLU
@@ -13,6 +15,7 @@ It includes preprocessing, model training, evaluation, and Kaggle submission gen
 	•	Linear(64×7×7 → 128) + ReLU
 	•	Dropout(0.3)
 	•	Linear(128 → 10)
+
 
 Validation accuracy reaches ≈ 99%.
 
