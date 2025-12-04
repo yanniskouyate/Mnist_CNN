@@ -1,10 +1,10 @@
 # 📘 MNIST Classification with CNN (PyTorch)
-#🔍 Overview
+🔍 #Overview
 
 This project implements a full deep learning pipeline to classify handwritten digits from the MNIST dataset using a Convolutional Neural Network (CNN) built with PyTorch.
 It includes preprocessing, model training, evaluation, and Kaggle submission generation.
 
-#🧠 Model Architecture
+🧠 Model Architecture
 	•	Conv2D(1 → 32) + ReLU
 	•	MaxPool(2×2)
 	•	Conv2D(32 → 64) + ReLU
@@ -17,7 +17,7 @@ It includes preprocessing, model training, evaluation, and Kaggle submission gen
 Validation accuracy reaches ≈ 99%.
 
 ⸻
-#📊 Dataset
+📊 Dataset
 
 Dataset used (Kaggle):
 https://www.kaggle.com/datasets/oddrationale/mnist-in-csv
@@ -32,7 +32,7 @@ All images are reshaped to (1, 28, 28) and normalized to [0,1].
 
 ⸻
 
-#⚙️ Training
+⚙️ Training
 	•	Optimizer: Adam
 	•	Loss: CrossEntropyLoss
 	•	Batch size: 64
@@ -47,11 +47,11 @@ The notebook includes:
 
   ⸻
 
-#📝 Kaggle Submission
+📝 Kaggle Submission
 
 The notebook generates a submission file: "submission.csv"
   ⸻
-#▶️ How to Run
+▶️ How to Run
 
 git clone https://github.com/yanniskouyate/mnist_cnn.git
 cd mnist_cnn
@@ -59,7 +59,7 @@ pip install torch torchvision pandas numpy matplotlib seaborn
 jupyter notebook Mnist_CNN.ipynb
 
 ⸻
-#📜 License
+📜 License
 
 MIT License.
 
