@@ -1,5 +1,5 @@
 # 📘 MNIST Classification with CNN (PyTorch)
-🔍 #Overview
+🔍 Overview
 
 This project implements a full deep learning pipeline to classify handwritten digits from the MNIST dataset using a Convolutional Neural Network (CNN) built with PyTorch.
 It includes preprocessing, model training, evaluation, and Kaggle submission generation.
