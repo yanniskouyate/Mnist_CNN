@@ -36,6 +36,7 @@ All images are reshaped to (1, 28, 28) and normalized to [0,1].
 ⸻
 
 ⚙️ Training
+
 	•	Optimizer: Adam
 	•	Loss: CrossEntropyLoss
 	•	Batch size: 64
@@ -43,6 +44,7 @@ All images are reshaped to (1, 28, 28) and normalized to [0,1].
 	•	GPU automatically used if available.
 
 The notebook includes:
+
 	•	Loss curves
 	•	Accuracy curves
 	•	Error analysis
@@ -56,11 +58,12 @@ The notebook generates a submission file: "submission.csv"
   ⸻
 ▶️ How to Run
 
+```
 git clone https://github.com/yanniskouyate/mnist_cnn.git
 cd mnist_cnn
 pip install torch torchvision pandas numpy matplotlib seaborn
 jupyter notebook Mnist_CNN.ipynb
-
+```
 ⸻
 📜 License
 
